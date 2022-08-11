@@ -33,12 +33,21 @@ step=int(step)
 for i in range(start,stop,step):
    print(i)'''
 
-#Task3#   
+'''#Task3#   
 v=int(input("Enter a number: "))
 for j in range(2,v+1,1): 
 #this will devide the num by two and will stop at the number above it , dividing it by every single number    
     if v % j == 0:
-        print(j)
-                 
+        print(j)'''
+    #Task 4
+v=int(input("Insert a prime number :"))
+s=True
+for j in range(2,v):
+    if v % j ==0:
+        s=False
+if s == True:         
+    print(v,"is a prime number")
+else:
+    print(v,"is not a prime number")                        
 
 
