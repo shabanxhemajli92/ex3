@@ -39,7 +39,6 @@ for j in range(2,v+1,1):
 #this will devide the num by two and will stop at the number above it , dividing it by every single number    
     if v % j == 0:
         print(j)
-    else:
-        print("This number is not dividable")                 
+                 
 
 
