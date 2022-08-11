@@ -1,12 +1,15 @@
- # Task 1
+''' # Task 1
+from argparse import RawTextHelpFormatter
+
+
 for i in range(0,3):
      n= input("give me a number:")
      if int(n) % 2==0:
          print("even number")
      else:
-        print("it is odd")     
+        print("it is odd")'''     
 
-# Task 2
+''' Task 2
 n=input("How many arguments you want to use: ")
 n=int(n)
 if n>=3:
@@ -28,4 +31,15 @@ start=int(start)
 stop=int(stop)
 step=int(step)
 for i in range(start,stop,step):
-   print(i)
+   print(i)'''
+
+#Task3#   
+v=int(input("Enter a number: "))
+for j in range(2,v+1,1): 
+#this will devide the num by two and will stop at the number above it , dividing it by every single number    
+    if v % j == 0:
+        print(j)
+    else:
+        print("This number is not dividable")                 
+
+
